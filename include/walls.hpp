@@ -19,4 +19,5 @@ class Walls {
 
     void generatePosibleWalls (vector<vector<int>> actualWall, int& actualRow);
     bool areRowsBalanced (vector<vector<int>>& actualWall) const;
+    bool solutionNoExist (vector<vector<int>>& actualWall) const;
 };
